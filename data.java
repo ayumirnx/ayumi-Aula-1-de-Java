@@ -8,7 +8,7 @@ mas é recomendado que tenhamos pelomenos uma classe com o mesmo nome do arquivo
 
 import java.util.Date;
 
-public class Main {    
+public class data {    
 
     public static void main(String[] args) {
        
