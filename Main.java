@@ -8,14 +8,12 @@ mas é recomendado que tenhamos pelomenos uma classe com o mesmo nome do arquivo
 
 import java.util.Date;
 
-public class main {    
+public class Main {    
 
     public static void main(String[] args) {
        
         Date relogio = new Date();
-        System.out.println("A hora do sitema e");
-        System.out.println(relogio.toString());
-
+        System.out.println("A hora do sitema e: " + relogio.toString());
     }
 
 }
