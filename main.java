@@ -6,11 +6,16 @@ mas é recomendado que tenhamos pelomenos uma classe com o mesmo nome do arquivo
 //por java ser uma liguagem muito tipada temos que especificarmos bem o que queremos pra maquina, ao declarar variaveis, temos que usar este escopo
 // tipo da variavel, nome da variavel e valor seguido de um ";" Ex: int = minhaIdade = 15;
 
+import java.util.Date;
 
 public class main {    
 
     public static void main(String[] args) {
-        
+       
+        Date relogio = new Date();
+        System.out.println("A hora do sitema e");
+        System.out.println(relogio.toString());
+
     }
 
 }
